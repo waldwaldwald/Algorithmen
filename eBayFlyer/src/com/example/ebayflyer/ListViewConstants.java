@@ -1,6 +1,5 @@
 /**
- * Klasse fuer Inhalt der Produktliste, die in ProductActivity angezeigt wird.
- * @author Li,Yuanyuan
+ * Klasse fuer Inhalt der Produktliste, die in ProductActivity angezeigt wird. 
  */
 
 package com.example.ebayflyer;

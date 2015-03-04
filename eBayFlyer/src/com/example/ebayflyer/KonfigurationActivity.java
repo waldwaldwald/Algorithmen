@@ -1,7 +1,6 @@
 /**
  * Activity fuer Produktkonfiguration: hier wird die Produkten angezeigt, die Nutzer fuer die Flyer ausgewaehlt hat. 
  * Die Nutzer koennen nun die Informationen von Produkten verarbeiten.
- * @author Li,Yuanyuan
  */
 package com.example.ebayflyer;
 

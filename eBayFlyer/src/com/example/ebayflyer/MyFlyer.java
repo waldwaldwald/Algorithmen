@@ -1,6 +1,5 @@
 /**
- * Activity fuer Anzeigen der erstellten myFlyer.
- * @author Li,Yuanyuan
+ * Activity fuer Anzeigen der erstellten myFlyer. 
  */
 
 package com.example.ebayflyer;

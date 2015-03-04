@@ -1,7 +1,5 @@
 /**
- * Activity fuer Loginseite der App.
- * @author Li,Yuanyuan
- * @Author Christian 
+ * Activity fuer Loginseite der App. 
  */
 
 package com.example.ebayflyer;

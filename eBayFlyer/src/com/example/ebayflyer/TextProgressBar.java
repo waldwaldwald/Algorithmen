@@ -1,6 +1,5 @@
 /**
- * Individuelles ProgressBar mit Textanzeige fuer Hauptseite der App.
- * @author Li,Yuanyuan
+ * Individuelles ProgressBar mit Textanzeige fuer Hauptseite der App. 
  */
 
 

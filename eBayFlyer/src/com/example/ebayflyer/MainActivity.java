@@ -1,6 +1,5 @@
 /**
- * Activity fuer Hauptseite der App.
- * @author Li,Yuanyuan
+ * Activity fuer Hauptseite der App. 
  */
 package com.example.ebayflyer;
 

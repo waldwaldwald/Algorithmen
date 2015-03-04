@@ -1,7 +1,5 @@
 /**
- * Activity fuer Produktauswahl: hier wird die vorgeschlagenen Produkten angezeigt, die Nutzer fuer die Flyer auswaehlen kann.
- * @author Li,Yuanyuan
- * @author Naima
+ * Activity fuer Produktauswahl: hier wird die vorgeschlagenen Produkten angezeigt, die Nutzer fuer die Flyer auswaehlen kann. 
  */
 
 package com.example.ebayflyer;
@@ -72,8 +70,7 @@ public class ProductActivity extends Activity implements
 		setContentView(R.layout.activity_product);
 
 		lp = getWindow().getAttributes();
-
-		// @author Li,Yuanyuan
+ 
 		// Methode um die von MainActivity uebergebenen itemListe(Objekt) in
 		// 2D-Array umzuwandeln
 		Object[] objectArray = (Object[]) getIntent().getExtras()
@@ -98,8 +95,7 @@ public class ProductActivity extends Activity implements
 				itemListe[i++][5] = ((String[]) row)[5];
 			}
 		}
-
-		// @author Li,Yuanyuan
+ 
 		// Initialisierung
 		final String editTextShopID = getIntent().getStringExtra(
 				"editTextShopID");
@@ -128,8 +124,7 @@ public class ProductActivity extends Activity implements
 		alsListe = new String[100][7];
 		produktvorschlagsListe = new String[100][7];
 		displayProductList();
-
-		// @author Li,Yuanyuan
+ 
 		// Button um Semgmentierungsmethode aufzurufen
 		kriteriumAuswahl.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -138,8 +133,7 @@ public class ProductActivity extends Activity implements
 				eingabeKundengruppierung();
 			}
 		});
-
-		// @author Li,Yuanyuan
+ 
 		// Button um Semgmentierungsmethode aufzurufen
 		produktVorschlag.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -150,8 +144,7 @@ public class ProductActivity extends Activity implements
 				}
 			}
 		});
-
-		// @author Li,Yuanyuan
+ 
 		// Methode um endgueltige Produkte-Liste fuer Flyer zu erstellen
 		alsBestaetigen.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -196,8 +189,7 @@ public class ProductActivity extends Activity implements
 			}
 		});
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um das Eingabe-Popupfenster anzuzeigen und das Abbruchkriterium
 	// fuer Kundengruppierungsmethode anzugeben
 	public void eingabeKundengruppierung() {
@@ -232,8 +224,7 @@ public class ProductActivity extends Activity implements
 		});
 
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um die Kundengruppierungsmethode aufzurufen
 	public void eingabeKundengruppierungssegmentierung() {
 		if (kriteriumStart) {
@@ -257,8 +248,7 @@ public class ProductActivity extends Activity implements
 
 		}
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um das Eingabe-Popupfenster und die
 	// Produktvorschlagssegmentierungsmethode aufzurufen
 	public void eingabeProduktschlag() {
@@ -303,8 +293,7 @@ public class ProductActivity extends Activity implements
 		});
 
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um das Liste zu leeren falls Produktvorschlag nochmals gemacht
 	// wird.
 	public void listeClear() {
@@ -325,8 +314,7 @@ public class ProductActivity extends Activity implements
 			produktListe.get(i).setSelected(false);
 		}
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um das Vergleich von vorgeschlagenen Produkte und aller Produkten
 	public void vergleichAlleVorschlag() {
 
@@ -360,8 +348,7 @@ public class ProductActivity extends Activity implements
 			produktvorschlagsListe[i][5] = itemListe[Integer.parseInt(vergleichListe
 					.get(i))][5];
 		}
-
-		// @author Li,Yuanyuan
+ 
 		// Nach dem Vergleich soll PopupFenster mit vorschlagenenen Progdukten
 		// angezeigt werden
 		initsmallPopuptWindow();
@@ -401,8 +388,7 @@ public class ProductActivity extends Activity implements
 	public void setAlsListe(String[][] alsListe) {
 		this.alsListe = alsListe;
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um GUI(ShopID) zu aktualisieren und Popupfenster anzuzeigen
 	private Handler mHandler = new Handler() {
 		public void handleMessage(Message msg) {
@@ -444,8 +430,7 @@ public class ProductActivity extends Activity implements
 				produktListe.get(pos).getProduktName() + ". State: is "
 						+ isChecked, Toast.LENGTH_SHORT).show();
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um Popupfenster anzuzeigen
 	@SuppressWarnings("deprecation")
 	private void initPopuptWindow() {
@@ -464,8 +449,7 @@ public class ProductActivity extends Activity implements
 		lp.alpha = 0.3f;
 		getWindow().setAttributes(lp);
 	}
-
-	// @author Li,Yuanyuan
+  
 	// Methode um Popupfenster mit kleinen Schriftgroesse anzuzeigen
 	@SuppressWarnings("deprecation")
 	private void initsmallPopuptWindow() {
@@ -484,8 +468,7 @@ public class ProductActivity extends Activity implements
 		lp.alpha = 0.3f;
 		getWindow().setAttributes(lp);
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um Popupfenster fuer Eingabe der Anzahl der Kundengruppe und
 	// Abbruchkriterium in % anzuzeigen
 	@SuppressWarnings("deprecation")
@@ -511,8 +494,7 @@ public class ProductActivity extends Activity implements
 		getMenuInflater().inflate(R.menu.product, menu);
 		return true;
 	}
-
-	// @author Li,Yuanyuan
+ 
 	// Methode um ausgewaehlte Menu-Item zu zeigen (Hilfe/Tutorial)
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
