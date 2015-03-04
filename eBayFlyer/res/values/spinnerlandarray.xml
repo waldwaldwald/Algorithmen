@@ -1,0 +1,10 @@
+<resources>
+ 
+    <string-array name="shopland">
+ 
+        <item>Deutschland - DE</item>
+        <item>Gro\u00dfbritanien - UK</item>
+        <item>United States - US</item>
+    </string-array>
+ 
+</resources>

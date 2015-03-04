@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eBayFlyer</string>
+    <string name="title_activity_product">Produktauswahl</string>
+    <string name="title_activity_flyer_anzeigen">Erstellte Flyer</string>
+    <string name="title_activity_main">Hauptseite</string>
+    <string name="title_activity_my_flyer">MyFlyer</string>
+    <string name="title_activity_als">ALS-Darstellung</string>
+    <string name="title_activity_konfiguration">Flyer-Konfiguration</string>
+    <string name="willkommen">Willkommen zu eBayFlyer!</string>
+    <string name="action_settings">Einstellung</string>
+    <string name="shop_id">Shop-ID:</string>
+    <string name="eingeben_shop_id">Geben Sie eine Shop-ID ein</string>
+    <string name="eingeben_optional">Optional (kein Pflichtfeld)</string>
+    <string name="auswaehlen_flyer">W\u00e4hlen Sie einen Flyer aus:</string>
+    <string name="auswaehlen_shop_land">W\u00e4hlen Sie das Land aus:</string>
+    <string name="schluesselwort">Schl\u00fcsselwort:</string>
+    <string name="erstellen_flyer">Flyer erstellen</string>
+    <string name="anzeigen_flyer">myFlyer anzeigen</string>
+    <string name="buttonAnzeigen">Anzeigen</string>
+    <string name="meine_flyer">Meine Flyer</string>
+    <string name="bestaetigen">Best\u00e4tigen</string>
+    <string name="anmelden">Anmelden</string>
+    <string name="land">Land:</string>
+    <string name="zurueck">Zur\u00fcck</string>
+    <string name="alle">Alle</string>
+    <string name="loading">Datenimport:  </string>
+    <string name="error">Error: </string>
+    <string name="hilfe">Hilfe</string>
+    <string name="leer"></string>
+    <string name="eingabe_abbruchkriterium">Abbruchkriterium in % : </string>
+    <string name="eingabe_abbruchkriteriumbeispiel">50</string>
+    <string name="konfiguration_produkt"> Produktinformationen </string>
+    <string name="konfiguration_id">ID: </string>
+    <string name="konfiguration_name">Name: </string>
+    <string name="konfiguration_beschreibung">Beschreibung: </string>
+    <string name="konfiguration_preis">Pries: </string>
+    <string name="konfiguration_bild">Bild: </string>
+    <string name="konfiguration_als"> Flyer-Konfiguration </string>
+    <string name="kunden_gruppieren"> Kunden gruppieren </string>
+    <string name="produkt_vorschlagen"> Produkt vorschlagen </string>
+
+    <color name="schwarz">#000000</color>
+    <color name="weiss">#FFFFFF</color>
+    <color name="orange">#F9B135</color>
+    <color name="grau">#E6E6E6</color>
+
+    <string name="beispiel_shop_id">catena-per-moto</string>
+    <string name="alsButtonText">ALS</string>
+
+    <string-array name="merkmale_array">
+        <item>age</item>
+        <item>postalCode</item>
+        <item>genderBinary</item>
+    </string-array>
+
+    <string name="konfiguration_beschreibung_beispiel">Souvenir aus Maldiven</string>
+    <string name="konfiguration_preis_beispiel">10 €</string>
+    <string name="konfiguration_name_beispiel">Produkt A</string>
+
+</resources>

@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/weiss"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="sensor"
+    tools:context="com.example.ebayflyer.LoginActivity" >
+
+    <TextView
+        android:id="@+id/textViewWillkommen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextShopID"
+        android:layout_marginTop="36dp"
+        android:text="@string/willkommen"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textViewShopID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewWillkommen"
+        android:layout_below="@+id/textViewWillkommen"
+        android:layout_marginTop="33dp"
+        android:text="@string/shop_id"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editTextShopID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewShopID"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:hint="@string/eingeben_shop_id"
+        android:text="@string/beispiel_shop_id"
+        android:textSize="35sp" />
+
+    <Spinner
+        android:id="@+id/spinnerShopLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonShopIDBestaetigen"
+        android:layout_alignStart="@+id/textViewShopLand"
+        android:layout_below="@+id/textViewShopLand" 
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/buttonShopIDBestaetigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextShopID"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextShopID"
+        android:layout_marginBottom="50dp"
+        android:background="@color/orange"
+        android:text="@string/anmelden" />
+    
+    <Button
+        android:id="@+id/buttonAls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/alsButtonText" />
+
+    <TextView
+        android:id="@+id/textViewShopLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextShopID"
+        android:layout_below="@+id/editTextShopID"
+        android:layout_marginTop="48dp"
+        android:text="@string/auswaehlen_shop_land"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textViewShopSchluesselwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinnerShopLand"
+        android:layout_below="@+id/spinnerShopLand"
+        android:layout_marginTop="83dp"
+        android:text="@string/schluesselwort"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editTextShopSchluesselwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignStart="@+id/textViewShopSchluesselwort"
+        android:layout_below="@+id/textViewShopSchluesselwort"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:hint="@string/eingeben_optional"
+        android:textSize="35sp" />
+
+</RelativeLayout>

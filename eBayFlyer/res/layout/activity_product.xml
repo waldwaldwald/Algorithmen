@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top" >
+    
+     <ListView
+         android:id="@+id/listView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/buttonBestaetigen"
+         android:layout_below="@+id/spinnerGruppeAuswahl"
+         android:scrollbars="vertical"
+         android:layout_marginTop="25dp"
+         android:layout_marginBottom="5dp" >
+        
+    </ListView>
+      
+
+    <Spinner
+        android:id="@+id/spinnerKriteriumAuswahl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/merkmale_array" />
+    
+    
+    <Button
+        android:id="@+id/buttonKriteriumAuswahl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/spinnerKriteriumAuswahl"
+        android:text="@string/kunden_gruppieren" />
+
+
+    <Spinner
+        android:id="@+id/spinnerGruppeAuswahl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/buttonProduktvorschlag"/>
+
+
+    <Button
+        android:id="@+id/buttonProduktvorschlag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/produkt_vorschlagen" />
+
+    <Button
+        android:id="@+id/buttonBestaetigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" 
+        android:text="@string/bestaetigen" />
+
+</RelativeLayout>
