@@ -1,7 +1,6 @@
 import java.util.Scanner;
 /**
  * 输入一个秒数，要求转换为XX小时XX分XX秒的格式输出出来;
- * @author Li,Yuanyuan
  *
  */
 public class ChangeSecondToHourMinuteSecond {

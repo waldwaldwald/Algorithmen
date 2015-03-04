@@ -1,7 +1,6 @@
 import java.util.Random;
 /**
  * 密码的自动生成器：密码由大写字母/小写字母/数字组成，生成六位随机密码;
- * @author Li,Yuanyuan
  *
  */
 

@@ -2,7 +2,6 @@ import java.util.Random;
 
 /**
  * 写一个彩票的生成代码： 1-33随机选7个不重复的数字；
- * @author Li,Yuanyuan
  *
  */
 public class GenerateDistinctNumber {
